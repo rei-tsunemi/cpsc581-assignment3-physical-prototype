@@ -66,7 +66,7 @@ To replicate or use this project, you'll need the following software:
 ### **Running the Software**
 1. After uploading the Arduino sketch, open the Processing IDE.
 2. Open the radar_display.pde file located in the repository.
-3. Ensure the correct serial port is selected in the Processing code (edit the line specifying the serial port if needed).
+3. Ensure the correct **serial port** is selected in the Processing code (edit the line specifying the serial port if needed).
 4. Run the Processing sketch.
 5. The radar visualization will appear, and the ultrasonic sensor will start detecting objects. Observations will be displayed in the visual interface.
 
