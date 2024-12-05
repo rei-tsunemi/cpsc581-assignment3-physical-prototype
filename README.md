@@ -52,16 +52,30 @@ To replicate or use this project, you'll need the following software:
 
 #### 2. **Software Setup:**  
 1. Download and install **Arduino IDE** and **Processing IDE** from the provided links.  
-2. Clone this repository to your local machine:  
-   ` bash
-   git clone https://github.com/rei-tsunemi/cpsc581-assignment3-physical-prototype.git
-   cd cpsc581-assignment3-physical-prototype
-  `
-	3.	Open the Arduino sketch (radar_system.ino) in the Arduino IDE.
-	4.	Install the required Arduino libraries (e.g., Servo.h) if not already installed.
+2. Clone this repository to your local machine.
+3. Open the Arduino sketch (radar_system.ino) in the Arduino IDE.
+4. Install the required Arduino libraries (e.g., Servo.h) if not already installed.
 
-3. Upload Code to Arduino:
+### 3. **Upload Code to Arduino:**
+1. Connect the Arduino board to your computer using the USB cable.
+2. Select the correct Board (e.g., Arduino Uno) and Port from the Tools menu in Arduino IDE.
+3. Upload the sketch to the Arduino by clicking the Upload button.
 
-	1.	Connect the Arduino board to your computer using the USB cable.
-	2.	Select the correct Board (e.g., Arduino Uno) and Port from the Tools menu in Arduino IDE.
-	3.	Upload the sketch to the Arduino by clicking the Upload button.
+---
+
+### **Running the Software**
+1. After uploading the Arduino sketch, open the Processing IDE.
+2. Open the radar_display.pde file located in the repository.
+3. Ensure the correct serial port is selected in the Processing code (edit the line specifying the serial port if needed).
+4. Run the Processing sketch.
+5. The radar visualization will appear, and the ultrasonic sensor will start detecting objects. Observations will be displayed in the visual interface.
+
+---
+
+### **Demo Video**
+[![Watch the video](https://youtu.be/Nz5zmY-ovKM/0.jpg)](https://youtu.be/Nz5zmY-ovKM)
+
+---
+
+### **Contributions**
+This project was a collaborative effort between the team members, combining skills in hardware setup, software programming, and interface design to create a functional prototype.
