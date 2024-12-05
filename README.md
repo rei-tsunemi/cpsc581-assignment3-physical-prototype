@@ -73,7 +73,7 @@ To replicate or use this project, you'll need the following software:
 ---
 
 ### **Demo Video**
-[![Watch the video](https://youtu.be/Nz5zmY-ovKM)
+[![Watch the video]](https://youtu.be/Nz5zmY-ovKM)
 
 ---
 
